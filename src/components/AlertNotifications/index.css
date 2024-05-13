@@ -1,0 +1,84 @@
+/* Write your CSS here */
+.alert-notification-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.message-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .message-content {
+    margin-top: 0px;
+  }
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 22px;
+  font-family: 'Roboto';
+}
+
+.icon {
+  height: 34px;
+  width: 45px;
+  margin-top: 12px;
+  background-color: #ffff;
+}
+
+.icon-success {
+  color: #2dca73;
+}
+
+.icon-warning {
+  color: #ffb800;
+}
+
+.icon-error {
+  color: #ff0b37;
+}
+
+.icon-info {
+  color: #0f81e0;
+}
+
+.success {
+  color: #2dca73;
+}
+
+.error {
+  color: #ff0b37;
+}
+
+.warning {
+  color: #ffb800;
+}
+
+.info {
+  color: #0f81e0;
+}
+
+.description {
+  color: #64748b;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 20px;
+  }
+}
